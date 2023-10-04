@@ -1,3 +1,5 @@
+<?php require_once ('header.php'); ?>
+
 <section class="slide">
     <div class="container">
         <div class="slide__inner">
@@ -730,3 +732,4 @@
     </div>
 </section>
 
+<?php  require_once ('footer.php'); ?>
