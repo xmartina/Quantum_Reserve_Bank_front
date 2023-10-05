@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="f__logo">
-            <img src="assets/img/logo.png">
+            <img src="<?= siteLogo?>">
         </div>
         <div class="footer__mid">
             <div class="finfo">
@@ -42,17 +42,17 @@
                     <i class="icon-mention"></i>
                 </div>
                 <div class="finfo__title">
-                    <p>Support@qfsnetwork.com</p>
+                    <p><?= siteMail?></p>
                 </div>
             </div>
         </div>
         <div class="footer__bot">
             <div class="copyright">
-                &copy; 2018. <strong>QFS Network</strong>. All Rights Reserved.
+                &copy; 2023. <strong><?= siteName?></strong>. All Rights Reserved.
             </div>
             <div class="terms__link">
-                <a href="indexa972a972.html?a=rules">Terms of Services</a>
-                <a href="index15a015a0.html?a=support">
+                <a href="<?= termsUrl?>">Terms of Services</a>
+                <a href="<?= contactUrl?>">
                     Contact Us
                 </a>
             </div>
@@ -61,6 +61,6 @@
 
 </section>
 </div>
-<script src="../code.tidio.co_443/y5qp3iwrnacfbfu8qmqpk4gxewrjygyc.js" async></script>
+<?php chatPlugin() ?>
 </body>
 </html>

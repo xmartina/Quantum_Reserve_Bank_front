@@ -6,10 +6,10 @@ require_once ('header.php'); ?>
     <div class="container">
         <div class="slide__inner">
             <div class="slide__left">
-                <h3><strong>QFS</strong>Network</h3>
+                <h3><?= siteNameHome?></h3>
                 <span>Dreams come true when you invest with us.</span>
                 <div class="slide__left--btn">
-                    <a href="user/signup.html" class="about__btn--btn"> Get Started </a>
+                    <a href="<?= signupUrl?>" class="about__btn--btn"> Get Started </a>
                 </div>
             </div>
             <div class="slide__right">
@@ -187,10 +187,10 @@ require_once ('header.php'); ?>
 
         <div class="about__content">
             <div class="about__left">
-                <div class="about__text1">ABOUT QFS Network</div>
-                <div class="about__text2">Welcome to QFS Network - Dreams come true when you invest with us.</div>
-                <div class="about__text3">QFS Network is a Leader in Cryptocurrency investment. We operates daily trading of Crypto by its own expertise trading methods, and generates huge profits daily from the total funds collected. However, there are still
-                    some questions— around reservations on investing in newer markets that appear volatile. The best way for new or hesitant investors to enter would be by hedging their returns and starting slow. QFS Network is a
+                <div class="about__text1 text-uppercase">ABOUT <?= siteName?></div>
+                <div class="about__text2">Welcome to <?= siteName?> - Dreams come true when you invest with us.</div>
+                <div class="about__text3"><?= siteName?> is a Leader in Cryptocurrency investment. We operate daily trading of Crypto by its own expertise trading methods, and generate huge profits daily from the total funds collected. However, there are still
+                    some questions— around reservations on investing in newer markets that appear volatile. The best way for new or hesitant investors to enter would be by hedging their returns and starting slow. <?= siteName?> is a
                     company that helps you trading cryptocurrency and does not require investors must have any knowledge about cryptocurrency trading before We assure great return of stable interest daily, with any problem at all. You are in the
                     right place, if you wanted to ever earn daily profits. Invest today and start your earning engine now.
                 </div>
@@ -201,7 +201,7 @@ require_once ('header.php'); ?>
         </div>
     </div>
 </section>
-<div style="padding:93.75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/772249399?h=e41aa61bc3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="About Us.mp4"></iframe></div><script src="../player.vimeo.com/api/player.js"></script>
+<!--<div style="padding:93.75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/772249399?h=e41aa61bc3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="About Us.mp4"></iframe></div><script src="../player.vimeo.com/api/player.js"></script>-->
 <section class="stat">
     <div class="nk-ovm shape-t"></div>
     <div class="container">
@@ -215,7 +215,7 @@ require_once ('header.php'); ?>
                 </div>
                 <div class="infobox__item--content">
                     <div class="info__box--title">
-                        Runing Days
+                        Running Days
                     </div>
 
                     <span>111</span>
@@ -702,7 +702,7 @@ require_once ('header.php'); ?>
             <div class="aff__content--right">
                 Earn with our multi level referral commission program by referring to your friends, relative, colleagues and your networking circles.
 
-                <a href="indexcca3cca3.html?a=signup" class="about__btn--btn"> Signup Now</a>
+                <a href="<?= signupUrl?>" class="about__btn--btn"> Signup Now</a>
 
 
                 <div class="affpercent">
