@@ -1,4 +1,6 @@
-<?php require_once ('header.php'); ?>
+
+<?php const pageName = "Home";
+require_once ('header.php'); ?>
 
 <section class="slide">
     <div class="container">

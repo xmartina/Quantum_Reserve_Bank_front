@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>QFS Network</title>
-    <base src="index-2.html" />
+    <title><?= pageName . " | " . siteName ?></title>
+    <base src="<?= homeUrl ?>" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/icomoon.min.css">
     <link rel="stylesheet" href="assets/css/bitneo-style.css">
     <script src="assets/js/jquery-2.1.4.min.js"></script>
     <script src="assets/js/bootstrap.bundle.js"></script>
     <script src="assets/js/custom.js"></script>
-    <link rel="shortcut icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="<?= siteIcon ?>">
     <script>
         var url = '../wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget5991.js?93010';
         var s = document.createElement('script');
@@ -40,7 +40,7 @@
                 "ctaText": "Start Chat",
                 "borderRadius": "15",
                 "autoShow": false,
-                "phoneNumber": "14028859095"
+                "phoneNumber": "<?= phone ?>"
             }
         };
         s.onload = function() {
@@ -61,8 +61,8 @@
     <section class="header">
         <div class="container">
             <div class="header__inner">
-                <a href="indexbc14bc14.html?a=home" class="logo">
-                    <img src="assets/img/logo.png" alt="Marathon">
+                <a href="<?= homeUrl ?>" class="logo">
+                    <img src="<?= siteLogo ?>" alt="Marathon">
                 </a>
                 <ul class="menu__main">
                     <li>
