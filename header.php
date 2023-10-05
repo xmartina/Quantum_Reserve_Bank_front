@@ -66,29 +66,29 @@
                 </a>
                 <ul class="menu__main">
                     <li>
-                        <a href="indexbc14bc14.html?a=home" class="menu__link">
+                        <a href="<?=homeUrl ?>" class="menu__link">
                             Home
                         </a>
                     </li>
                     <li>
-                        <a href="indexa972a972.html?a=rules" class="menu__link">
+                        <a href="<?= termsUrl?>" class="menu__link">
                             Terms
                         </a>
                     </li>
                     <li>
-                        <a href="index38cd38cd.html?a=faq" class="menu__link">
+                        <a href="<?= faqUrl?>" class="menu__link">
                             FAQs
                         </a>
                     </li>
                     <li>
-                        <a href="index15a015a0.html?a=support" class="menu__link pr-0">
+                        <a href="<?= contactUrl?>" class="menu__link pr-0">
                             Contact Us
                         </a>
                     </li>
                 </ul>
                 <div class="head__btn">
-                    <a href="user/login.html" class="btn__login"> Login </a>
-                    <a href="user/signup.html" class="btn__signup"> Signup </a>
+                    <a href="<?= loginUrl?>" class="btn__login"> Login </a>
+                    <a href="<?= signupUrl?>" class="btn__signup"> Signup </a>
                 </div>
             </div>
         </div>
